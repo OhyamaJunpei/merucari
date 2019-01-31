@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./list.html">Rakus Items</a>
+      <a class="navbar-brand" href="${pageContext.request.contextPath}/itemlist/page">Rakus Items</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <div>
@@ -44,7 +44,7 @@
 
   <!-- details -->
   <div id="input-main" class="container">
-    <a type="button" class="btn btn-default" href="./list.html"><i class="fa fa-reply"></i> back</a>
+    <a type="button" class="btn btn-default" href="${pageContext.request.contextPath}/itemlist/page"><i class="fa fa-reply"></i> back</a>
     <h2>Add</h2>
 
     <!-- add form -->
